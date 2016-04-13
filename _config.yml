@@ -1,28 +1,40 @@
-name: Moi Design Blog
 favicon: null
-layout_spectrum: 0.77517
-typography_spectrum: 0.82967
-cta:
-  domain: null
-  bucket: null
-  version: null
-analytics:
-  google: null
-  facebook: null
-  twitter: null
+name: Moi Design Blog
 opengraph:
   image: null
   type: null
   appId: null
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+purpose: []
 color:
+  saturation: 0.7932331
+  brandStrength: 0
+  lightness: 1
   brandColors:
     - '#f6ba00'
     - '#e3cbd9'
     - '#aa94a9'
     - '#f9b2b8'
     - '#c29043'
-  brandStrength: 0
-  lightness: 1
-  saturation: 0.5
-  rhythmicContrast: 0
-purpose: []
+  rhythmicContrast: 0.7674544
+typography_spectrum: 0.0435016
+layout_spectrum: 0.6836735
+analytics:
+  twitter: null
+  google: null
+  facebook: null
+cta:
+  bucket: null
+  version: null
+  domain: null
